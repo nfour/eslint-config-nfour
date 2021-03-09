@@ -1,12 +1,14 @@
 # eslint-config-nfour
 
-> Install it.
+## Install
+
+Install it.
 
 ```bash
 yarn add -D eslint-config-nfour
 ```
 
-> Wire it up.
+Wire it up.
 
 ```bash
 echo "module.exports = require('eslint-config-nfour')" > .eslintrc.js
@@ -16,6 +18,19 @@ echo "module.exports = require('eslint-config-nfour')" > .eslintrc.js
 echo "module.exports = require('eslint-config-nfour/.eslintrc.react')" > .eslintrc.js
 ```
 
-> Done 
+Done 
 
+## Prettier
+
+To overwrite the default prettier config
+then create a `.prettierrc.js` in your project:
+
+```js
+module.exports = {
+  ...require('eslint-config-nfour/.prettierrc'),
+  semi: false,
+}
+```
+
+## How it works
 Thanks to `require('@rushstack/eslint-patch/modern-module-resolution');`, plugins can be included relative to the configs, not the consuming project.
