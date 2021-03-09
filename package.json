@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-nfour",
+  "version": "1.1.0",
+  "description": "My go to eslint config for typescript & prettier",
+  "main": "./.eslintrc.js",
+  "author": "nfour",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "peerDependencies": {
+    "typescript": "*"
+  },
+  "dependencies": {
+    "@rushstack/eslint-patch": "^1.0.6",
+    "@typescript-eslint/eslint-plugin": "4.15.2",
+    "@typescript-eslint/parser": "4.15.2",
+    "eslint": "7.21.0",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-config-standard": "16.0.2",
+    "eslint-config-standard-typescript-prettier": "4.2.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-only-warn": "^1.0.2",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-promise": "4.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-standard": "5.0.0",
+    "eslint-plugin-unused-imports": "^1.0.1",
+    "prettier": "2.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
