@@ -10,7 +10,7 @@ module.exports = {
   },
   plugins: ['eslint-plugin-react', 'eslint-plugin-react-hooks'],
   extends: [
-    './.eslintrc.js',
+    require.resolve('./.eslintrc'),
     'eslint-config-react/recommended',
     'eslint-config-react-hooks/recommended',
   ],
