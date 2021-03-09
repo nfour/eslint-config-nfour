@@ -6,7 +6,8 @@
   "author": "nfour",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "checkNpm": "npm pack --dry-run"
   },
   "peerDependencies": {
     "typescript": "*"
