@@ -5,6 +5,10 @@
   "main": "./.eslintrc.js",
   "author": "nfour",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nfour/eslint-config-nfour"
+  },
   "scripts": {
     "lint": "eslint .",
     "checkNpm": "npm pack --dry-run"
