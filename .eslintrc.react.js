@@ -18,8 +18,8 @@ module.exports = {
   ],
   extends: [
     ...base.extends,
-    'eslint-config-react/recommended',
-    'eslint-config-react-hooks/recommended',
+    'eslint-plugin-react/recommended',
+    'eslint-plugin-react-hooks/recommended',
   ],
   parserOptions: {
     ...base.parserOptions,
