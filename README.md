@@ -1,14 +1,15 @@
 # eslint-config-nfour
 
-> Some more opinionated rules to ensure good line spacing etc.
-> See the [./eslintrc.js](./eslintrc.js) for details
+> Some opinionated style & type rules built on top of https://github.com/nfour/eslint-config-standard-typescript-prettier/blob/master/README.md
+> 
+> See [./eslintrc.js](./eslintrc.js)
 
 ## Install
 
 Install it.
 
 ```bash
-yarn add -D eslint-config-nfour
+pnpm add -D eslint-config-nfour
 ```
 
 Wire it up.
