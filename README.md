@@ -24,10 +24,9 @@ echo "module.exports = require('eslint-config-nfour/.eslintrc.react')" > .eslint
 
 Done 
 
-## Prettier (OPTIONAL)
+## Prettier 
 
-To overwrite the default prettier config
-then create a `.prettierrc.js` in your project:
+To configure prettier then create a `.prettierrc.js` in the project:
 
 ```js
 module.exports = {
