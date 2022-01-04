@@ -22,11 +22,7 @@ echo "module.exports = require('eslint-config-nfour')" > .eslintrc.js
 echo "module.exports = require('eslint-config-nfour/.eslintrc.react')" > .eslintrc.js
 ```
 
-Done 
-
-## Prettier 
-
-To configure prettier then create a `.prettierrc.js` in the project:
+Configure `.prettierrc.js` with something like:
 
 ```js
 module.exports = {
@@ -35,5 +31,8 @@ module.exports = {
 }
 ```
 
+Done.
+
 ## How it works
-Thanks to `require('@rushstack/eslint-patch/modern-module-resolution');`, plugins can be included relative to the configs, not the consuming project.
+
+Thanks to `require('@rushstack/eslint-patch/modern-module-resolution');`, plugins can be included relative to the configs, not the consuming project, so you don't need to install any eslint plugins/config peer dependencies.
