@@ -10,7 +10,7 @@
     "url": "https://github.com/nfour/eslint-config-nfour"
   },
   "scripts": {
-    "lint": "eslint .",
+    "lint": "cd test && eslint .",
     "checkNpm": "npm pack --dry-run"
   },
   "peerDependencies": {

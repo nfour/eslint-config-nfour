@@ -3,17 +3,17 @@ require('@rushstack/eslint-patch/modern-module-resolution');
 /** @ts-check @type import('eslint-config-standard-typescript-prettier/types').TsEslintConfig */
 module.exports = {
   rules: {
+    'camelcase': ['off'],
+    'no-unused-expressions': ['off'],
+    'newline-before-return': ['off'], // When enabled formatting gets jumbled up
+    'no-use-before-define': ['off'], // Disabled because manual order in module scope is useful
+
+    'unused-imports/no-unused-imports-ts': 'error',
+
     '@typescript-eslint/no-unnecessary-type-assertion': ['error'],
     '@typescript-eslint/no-empty-interface': 'off',
-
     '@typescript-eslint/no-unused-vars': 'off',
-    'unused-imports/no-unused-imports-ts': 'error',
-    'camelcase': ['off'],
-    '@typescript-eslint/camelcase': ['off'], // Nah
-    'no-unused-expressions': ['off'],
-    'newline-before-return': ['error'],
-    'no-use-before-define': ['off'],
-    'newline-after-var': ['error'],
+    '@typescript-eslint/camelcase': ['off'],
     '@typescript-eslint/ban-types': ['off'],
     '@typescript-eslint/explicit-module-boundary-types': ['off'],
 
@@ -25,7 +25,6 @@ module.exports = {
       { prev: 'import', next: 'import', blankLine: 'never' },
       { prev: '*', next: 'export', blankLine: 'always' },
       { prev: 'export', next: '*', blankLine: 'always' },
-      { prev: 'export', next: 'export', blankLine: 'any' },
       { prev: '*', next: 'multiline-block-like', blankLine: 'always' },
       { prev: 'multiline-block-like', next: '*', blankLine: 'always' },
       { prev: '*', next: 'block-like', blankLine: 'always' },
@@ -35,10 +34,14 @@ module.exports = {
       { prev: 'if', next: '*', blankLine: 'always' },
       { prev: '*', next: 'if', blankLine: 'always' },
       { prev: 'if', next: 'if', blankLine: 'any' },
-      { prev: '*', next: 'return', blankLine: 'always' },
       {
-        prev: ['singleline-const'],
-        next: ['singleline-const'],
+        prev: ['singleline-const', 'singleline-let', 'singleline-var'],
+        next: ['*'],
+        blankLine: 'always',
+      },
+      {
+        prev: ['singleline-const', 'singleline-let', 'singleline-var'],
+        next: ['singleline-const', 'singleline-let', 'singleline-var'],
         blankLine: 'never',
       },
     ],
