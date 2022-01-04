@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nfour",
-  "version": "2.0.0-0",
+  "version": "2.0.0-1",
   "description": "My go to eslint config for typescript & prettier",
   "main": "./.eslintrc.js",
   "author": "nfour",
