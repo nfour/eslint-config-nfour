@@ -1,6 +1,6 @@
 # eslint-config-nfour
 
-> Some opinionated style & type rules built on top of https://github.com/nfour/eslint-config-standard-typescript-prettier/blob/master/README.md
+> Some opinionated style & type rules built on top of https://github.com/nfour/eslint-config-standard-typescript-prettier
 > 
 > See [./eslintrc.js](./eslintrc.js)
 
