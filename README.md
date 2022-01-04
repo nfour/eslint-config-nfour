@@ -1,5 +1,8 @@
 # eslint-config-nfour
 
+> Some more opinionated rules to ensure good line spacing etc.
+> See the [./eslintrc.js](./eslintrc.js) for details
+
 ## Install
 
 Install it.
