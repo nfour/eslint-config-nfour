@@ -23,8 +23,6 @@ module.exports = {
       { prev: '*', next: 'import', blankLine: 'always' },
       { prev: '*', next: 'import', blankLine: 'always' },
       { prev: 'import', next: 'import', blankLine: 'never' },
-      { prev: '*', next: 'export', blankLine: 'always' },
-      { prev: 'export', next: '*', blankLine: 'always' },
       { prev: '*', next: 'multiline-block-like', blankLine: 'always' },
       { prev: 'multiline-block-like', next: '*', blankLine: 'always' },
       { prev: '*', next: 'block-like', blankLine: 'always' },

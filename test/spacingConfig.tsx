@@ -1,8 +1,11 @@
 export const foo = 1;
-
 export const foo2_1 = { bar: 1 };
 
 export const foo2 = {
+  bar: 1,
+};
+
+export const foo2_2 = {
   bar: 1,
 };
 
@@ -15,3 +18,9 @@ const fn = () => {
 
   return <></>;
 };
+
+export * from './mod1';
+export * from './mod1';
+export * from './mod1';
+export * from './mod1';
+export * from './mod1';
