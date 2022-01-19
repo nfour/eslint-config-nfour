@@ -11,6 +11,12 @@ export const foo2_2 = {
 
 const fn = () => {
   const foo = 1;
+  const foo33 = {
+    a: 1,
+  };
+
+  const foo44 = 1;
+  const foo4455 = 1;
 
   if (foo) foo;
 

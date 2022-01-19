@@ -42,6 +42,11 @@ module.exports = {
         next: ['singleline-const', 'singleline-let', 'singleline-var'],
         blankLine: 'never',
       },
+      {
+        prev: ['singleline-const', 'singleline-let', 'singleline-var'],
+        next: ['multiline-const', 'multiline-let', 'multiline-var'],
+        blankLine: 'never',
+      },
     ],
   },
   plugins: ['eslint-plugin-unused-imports', 'eslint-plugin-only-warn'],
