@@ -18,7 +18,6 @@ const fn = () => {
   const foo33 = {
     a: 1,
   };
-
   const foo44 = 1;
   const foo4455 = 1;
 
