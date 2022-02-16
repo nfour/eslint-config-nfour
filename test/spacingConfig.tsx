@@ -1,3 +1,7 @@
+import { foo as xx } from './mod1';
+// import { foo as xxzz } from './mod1';
+
+xx;
 export const foo = 1;
 export const foo2_1 = { bar: 1 };
 
@@ -21,6 +25,8 @@ const fn = () => {
   if (foo) foo;
 
   const foo2 = 1;
+
+  foo2;
 
   return <></>;
 };
