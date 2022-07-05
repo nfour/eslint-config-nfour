@@ -57,8 +57,15 @@ module.exports = {
       },
       { prev: '*', next: 'multiline-block-like', blankLine: 'always' },
 
-      { prev: 'multiline-block-like', next: '*', blankLine: 'always' },
-      { prev: 'multiline-expression', next: '*', blankLine: 'always' },
+      {
+        prev: [
+          'multiline-expression',
+          'multiline-const',
+          'multiline-block-like',
+        ],
+        next: '*',
+        blankLine: 'always',
+      },
     ],
   },
   plugins: ['eslint-plugin-unused-imports', 'eslint-plugin-only-warn'],

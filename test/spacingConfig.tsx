@@ -15,8 +15,7 @@ export const foo2_2 = {
   bar: 1,
 };
 const zzz = 1111;
-
-const fn = () => {
+const fn = observer(() => {
   const foo = 1;
   const foo33 = {
     a: 1,
@@ -40,7 +39,33 @@ const fn = () => {
       <div></div>
     </>
   );
-};
+});
+
+const fn3 = observer(() => {
+  const foo = 1;
+  const foo33 = {
+    a: 1,
+  };
+
+  const aaaaa = () => {
+    return 1;
+  };
+
+  const foo44 = 1;
+  const foo4455 = 1;
+
+  if (foo) foo;
+
+  const foo2 = 1;
+
+  foo2;
+
+  return (
+    <>
+      <div></div>
+    </>
+  );
+});
 
 const a = 1;
 const b = {
@@ -52,3 +77,7 @@ export * from './mod1';
 export * from './mod1';
 export * from './mod1';
 export * from './mod1';
+
+function observer(arg0: () => any) {
+  throw new Error('Function not implemented.');
+}
