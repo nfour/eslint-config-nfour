@@ -35,7 +35,11 @@ const fn = () => {
 
   foo2;
 
-  return <></>;
+  return (
+    <>
+      <div></div>
+    </>
+  );
 };
 
 const a = 1;
