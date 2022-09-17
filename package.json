@@ -17,25 +17,25 @@
     "typescript": "*"
   },
   "dependencies": {
-    "@rushstack/eslint-patch": "^1.1.4",
+    "@rushstack/eslint-patch": "^1.2",
     "eslint-config-standard-typescript-prettier": "^6.0.0",
     "eslint-plugin-only-warn": "^1.0.3",
-    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react": "^7.31.8",
     "eslint-plugin-react-hooks": "^4.6.0",
     "@typescript-eslint/eslint-plugin": "^5.30.5",
     "@typescript-eslint/parser": "^5.30.5",
-    "eslint": "^8.19.0",
+    "eslint": "^8.23.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-n": "^15.2.5",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-promise": "^6.0.1",
     "prettier": "^2.7.1",
     "eslint-plugin-unused-imports": "^2.0.0"
   },
   "devDependencies": {
-    "typescript": "~4.5.0"
+    "typescript": "~4.8.3"
   }
 }
