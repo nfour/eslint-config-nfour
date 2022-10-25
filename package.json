@@ -20,7 +20,7 @@
     "@rushstack/eslint-patch": "^1.2",
     "eslint-config-standard-typescript-prettier": "^6.0.0",
     "eslint-plugin-only-warn": "^1.0.3",
-    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react": "^7.31.10",
     "eslint-plugin-react-hooks": "^4.6.0",
     "@typescript-eslint/eslint-plugin": "^5.30.5",
     "@typescript-eslint/parser": "^5.30.5",
