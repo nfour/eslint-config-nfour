@@ -4,6 +4,16 @@
 > 
 > See [./.eslintrc.js](./.eslintrc.js)
 
+## Why
+
+**Pros**:
+- [x] You do not need to install ANY eslint dependencies explicitly in your project
+- [x] Eslint dependencies work together out of the box
+- [x] Eslint config with simplified defaults
+
+**Cons**:
+- [x] If this package becomes outdated you may need to manually manage dependencies again
+
 ## Install
 
 Install it.
